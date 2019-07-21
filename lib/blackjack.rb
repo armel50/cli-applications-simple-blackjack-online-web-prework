@@ -32,7 +32,7 @@ def initial_round
   # code #initial_round here
   total_card = 0
   2.times{ total_card += deal_card}
-  #display_card_total(total_card)
+  display_card_total(total_card)
   total_card
 end
 
