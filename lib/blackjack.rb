@@ -72,10 +72,6 @@ def runner
    total = hit?(total)
     display_card_total(total)
    
-    
-    prompt_user
-    get_user_input
-      
      
       
       
