@@ -66,13 +66,13 @@ def runner
   welcome 
   total = 0
   random_num = initial_round
-#   while random_num < 21 do  
-#     prompt_user
-#     get_user_input
-#       hit?(random_num)
+  while random_num < 21 do  
+    prompt_user
+    get_user_input
+      hit?(random_num)
      
       
-#       display_card_total(random_num)
-# end
+      display_card_total(random_num)
+end
 end
     
