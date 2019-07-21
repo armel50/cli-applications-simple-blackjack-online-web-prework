@@ -67,6 +67,7 @@ def runner
   random_num = initial_round
   while random_num < 21 do 
       hit?(random_num)
+      prompt_user
       
       display_card_total(random_num)
 end
