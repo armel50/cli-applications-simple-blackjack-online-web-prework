@@ -66,7 +66,9 @@ def runner
   welcome 
   total = 0
   random_num = initial_round
-  while random_num < 21 do  
+  while total < 21 do  
+    
+    total += random_num
     prompt_user
     get_user_input
       hit?(random_num)
