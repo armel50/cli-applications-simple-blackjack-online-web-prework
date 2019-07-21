@@ -63,10 +63,11 @@ end
 def runner
   # code runner here
   
-  welcome 
+  
   total = 0
   
-  while total < 21 do  
+  while total < 21 do 
+    welcome 
     random_num = initial_round
     total += random_num
     prompt_user
