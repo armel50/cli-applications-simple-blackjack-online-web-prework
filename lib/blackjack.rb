@@ -70,7 +70,7 @@ def runner
     welcome 
     random_num = initial_round
     total += random_num
-    it?(total)
+    hit?(total)
     display_card_total(random_num)
     prompt_user
     get_user_input
