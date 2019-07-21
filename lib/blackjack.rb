@@ -46,6 +46,7 @@ def hit?(current)
     invalid_command
     prompt_user
   end
+  current
 end
 
 def invalid_command
