@@ -69,10 +69,10 @@ def runner
   while total < 21 do 
     welcome 
     random_num = initial_round
-    total += random_num
+    total += random_numhit?(total)
     prompt_user
     get_user_input
-      hit?(total)
+      
      
       
       display_card_total(random_num)
