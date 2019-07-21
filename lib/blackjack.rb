@@ -66,7 +66,7 @@ def runner
   
   total = 0
   
-  while total != 22 do 
+  while total < 22 do 
     welcome 
     random_num = initial_round
     total += random_num
