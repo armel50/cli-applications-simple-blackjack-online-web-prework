@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  card_value = 
 end
 
 def display_card_total(card_total)
