@@ -64,7 +64,7 @@ def runner
   # code runner here
   welcome 
   random_num = initial_round
-  hit
+  hit(current)
   display_card_total
 end
     
