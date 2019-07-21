@@ -62,12 +62,12 @@ end
 
 def runner
   # code runner here
-  
+   welcome 
   
   total = 0
   
   while total < 21 do 
-    welcome 
+   
   
     total += initial_round
     display_card_total(total)
