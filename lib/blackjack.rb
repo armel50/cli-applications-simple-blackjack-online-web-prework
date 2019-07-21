@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  card_value = 
+  card_value = rand 1..
 end
 
 def display_card_total(card_total)
